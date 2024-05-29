@@ -1,0 +1,252 @@
+{
+	"SchemaVersion": "1.1",
+	"DatastoreID": "558dfda9fc544f6eb7c16d166033884b",
+	"ImageSetID": "2d235f29f435a0b7a610158efa2d7823",
+	"Patient": {
+		"DICOM": {
+			"PatientBirthDate": null,
+			"PatientSex": "M",
+			"PatientID": "23885",
+			"PatientName": "YASER^ESSA^"
+		}
+	},
+	"Study": {
+		"DICOM": {
+			"StudyTime": "114937",
+			"ReferringPhysicianName": null,
+			"StudyID": "1097423080824743",
+			"StudyDate": "20230808",
+			"StudyDescription": "CHEST",
+			"AccessionNumber": null,
+			"StudyInstanceUID": "1.2.392.200036.9107.500.111097423080824743"
+		},
+		"Series": {
+			"1.2.826.0.1.3680043.8.498.84708656967801501593545409132802386398": {
+				"DICOM": {
+					"SoftwareVersions": [
+						"3.2"
+					],
+					"ProtocolName": "X-RAY Analysis",
+					"ManufacturerModelName": "qXR",
+					"SeriesDate": "20230809",
+					"Manufacturer": "Qure.ai",
+					"SeriesNumber": "4002",
+					"ReferencedPerformedProcedureStepSequence": [],
+					"SeriesTime": "093455",
+					"Modality": "SR",
+					"SeriesInstanceUID": "1.2.826.0.1.3680043.8.498.84708656967801501593545409132802386398",
+					"SeriesDescription": "X-RAY Report"
+				},
+				"Instances": {
+					"1.2.826.0.1.3680043.8.498.72822407337053994393576037395628604674": {
+						"DICOM": {
+							"SpecificCharacterSet": [
+								"ISO_IR 100"
+							],
+							"TransferSyntaxUID": "1.2.840.10008.1.2.1",
+							"InstanceNumber": "1",
+							"ConceptNameCodeSequence": [
+								{
+									"CodeMeaning": "qXR Analysis Report",
+									"CodeValue": "DT.06",
+									"CodingSchemeDesignator": "99_OFFIS_DCMTK"
+								}
+							],
+							"ContentSequence": [
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Modality",
+											"CodeValue": "QURE_CODE_01",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "CR",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Field of study",
+											"CodeValue": "QURE_CODE_02",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": null,
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Study ID",
+											"CodeValue": "QURE_CODE_03",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "1.2.392.200036.9107.500.111097423080824743",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Date and time of formation of the conclusion by the AI service",
+											"CodeValue": "QURE_CODE_04",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "20230809093455",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Warning",
+											"CodeValue": "QURE_CODE_05",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "For research purposes only",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Notification",
+											"CodeValue": "QURE_CODE_06",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "Conclusion obtained with the support of artificial intelligence algorithm",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Service name",
+											"CodeValue": "QURE_CODE_07",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "X-RAY",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Service version",
+											"CodeValue": "QURE_CODE_08",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "3.1",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Service assignment",
+											"CodeValue": "QURE_CODE_09",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "The service detects x-ray signs of abnormality for examinations of the chest organs (THC)",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Technical details",
+											"CodeValue": "QURE_CODE_10",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "Direct projection chest x-ray",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Description",
+											"CodeValue": "QURE_CODE_11",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "No significant lung field abnormality detected.\nNo blunting in CP angles is seen.\n\nNo significant findings observed in the heart.\nMediastinum is within normal limits.\nTrachea is centrally located.\n\nBony thorax appears unremarkable.",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "IMPRESSION",
+											"CodeValue": "QURE_CODE_12",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "No significant abnormality detected",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "Notes",
+											"CodeValue": "QURE_CODE_13",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "DISCLAIMER: This is an auto-generated report by the software and cannot be used as the final report. Please treat this as a provisional report and correlate clinically. For any discrepancy please consult a Radiologist/ Chest Physician.",
+									"RelationshipType": "CONTAINS"
+								},
+								{
+									"ConceptNameCodeSequence": [
+										{
+											"CodeMeaning": "User's manual",
+											"CodeValue": "QURE_CODE_14",
+											"CodingSchemeDesignator": "99_QURE"
+										}
+									],
+									"ValueType": "TEXT",
+									"TextValue": "Descriptions of the finds are indicated on the right side of the Dicom image",
+									"RelationshipType": "CONTAINS"
+								}
+							],
+							"ValueType": "CONTAINER",
+							"ImplementationVersionName": "OFFIS_DCMTK_363",
+							"ContinuityOfContent": "SEPARATE",
+							"VerificationFlag": "UNVERIFIED",
+							"InstanceCreatorUID": "1.2.276.0.7230010.3.0.3.6.3",
+							"AcquisitionTime": "093455",
+							"InstanceCreationDate": "20181106",
+							"FileMetaInformationVersion": "AAE=",
+							"CompletionFlag": "PARTIAL",
+							"ContentTime": "093455",
+							"ImplementationClassUID": "1.2.276.0.7230010.3.0.3.6.3",
+							"MediaStorageSOPClassUID": "1.2.840.10008.5.1.4.1.1.88.11",
+							"InstanceCreationTime": "172700",
+							"MediaStorageSOPInstanceUID": "1.2.826.0.1.3680043.8.498.72822407337053994393576037395628604674",
+							"AcquisitionDate": "20230809",
+							"ContentDate": "20230809",
+							"PerformedProcedureCodeSequence": [],
+							"SOPInstanceUID": "1.2.826.0.1.3680043.8.498.72822407337053994393576037395628604674",
+							"SOPClassUID": "1.2.840.10008.5.1.4.1.1.88.11"
+						},
+						"DICOMVRs": {},
+						"ImageFrames": []
+					}
+				}
+			}
+		}
+	}
+}
